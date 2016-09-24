@@ -1,0 +1,21 @@
+// General Colours
+$mainColor: #ffffff;
+$dropShadow : rgba(0, 0, 0, 0.15);
+$ligthBlue : #1bddc6;
+$lightYellow : #fff27d;
+// Type
+$fontColor : #777777;
+// Health
+$healthGood : #1ee2aa;
+$healthNeutral : #f9b74b;
+$healthWeak : #f96e64;
+
+// Em Calculations
+$browser-context: 16; //Default
+
+// Dimensions
+$maxWidth: 1024px;
+$containerWidth: $maxWidth;
+$middleContainer: 600px;
+$sideContainer: calc((#{$maxWidth} - #{$middleContainer}) / 2);
+$monsterWindowHeight: 320px;
